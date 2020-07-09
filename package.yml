@@ -1,0 +1,14 @@
+name       : python-bitstring
+version    : 3.1.7
+release    : 1
+source     :
+    - https://github.com/scott-griffiths/bitstring/archive/bitstring-3.1.7.tar.gz : fa4a9f6fc8a15e69c6266968741b2cd7827001d646bd66b46fb6e93a28571f79
+license    : MIT
+component  : programming.python
+summary    : A pure Python module designed to help make the creation and analysis of binary data as simple and natural as possible.
+description: |
+    A pure Python module designed to help make the creation and analysis of binary data as simple and natural as possible. Bitstrings can be constructed from integers (big and little endian), hex, octal, binary, strings or files. They can be sliced, joined, reversed, inserted into, overwritten, etc. with simple functions or slice notation. They can also be read from, searched and replaced, and navigated in, similar to a file or stream.
+build      : |
+    %python3_setup
+install    : |
+    %python3_install

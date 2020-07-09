@@ -1,0 +1,36 @@
+<PISI>
+    <Source>
+        <Name>python-bitstring</Name>
+        <Packager>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">A pure Python module designed to help make the creation and analysis of binary data as simple and natural as possible.</Summary>
+        <Description xml:lang="en">A pure Python module designed to help make the creation and analysis of binary data as simple and natural as possible. Bitstrings can be constructed from integers (big and little endian), hex, octal, binary, strings or files. They can be sliced, joined, reversed, inserted into, overwritten, etc. with simple functions or slice notation. They can also be read from, searched and replaced, and navigated in, similar to a file or stream.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-bitstring</Name>
+        <Summary xml:lang="en">A pure Python module designed to help make the creation and analysis of binary data as simple and natural as possible.</Summary>
+        <Description xml:lang="en">A pure Python module designed to help make the creation and analysis of binary data as simple and natural as possible. Bitstrings can be constructed from integers (big and little endian), hex, octal, binary, strings or files. They can be sliced, joined, reversed, inserted into, overwritten, etc. with simple functions or slice notation. They can also be read from, searched and replaced, and navigated in, similar to a file or stream.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/__pycache__/bitstring.cpython-37.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/bitstring-3.1.7-py3.7.egg-info</Path>
+            <Path fileType="library">/usr/lib/python3.7/site-packages/bitstring.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2020-07-09</Date>
+            <Version>3.1.7</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
+        </Update>
+    </History>
+</PISI>
